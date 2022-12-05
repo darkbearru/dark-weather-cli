@@ -1,0 +1,19 @@
+{
+  "name": "dark-weather-cli",
+  "version": "0.0.1",
+  "private": false,
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "man": "./README.MD",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Alexey Abramenko",
+  "license": "ISC",
+  "homepage": "http://darkbear.ru"
+}
