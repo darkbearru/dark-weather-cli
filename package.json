@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "private": false,
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "type": "module",
+  "bin": {
+    "weather": "weather.js"
+  },
   "man": "./README.MD",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +18,15 @@
   ],
   "author": "Alexey Abramenko",
   "license": "ISC",
-  "homepage": "http://darkbear.ru"
+  "homepage": "http://darkbear.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkbearru/dark-weather-cli"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "chalk": "^5.1.2",
+    "dedent-js": "^1.0.1",
+    "process": "^0.11.10"
+  }
 }
